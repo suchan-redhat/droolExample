@@ -1,0 +1,14 @@
+rhdm-demo/target/rhdm-demo-1.0.jar
+rhdm-demo/target/classes/com/sunny/demo/App.class
+rhdm-demo/target/classes/com/sunny/demo/bean/Customer.class
+rhdm-demo/target/classes/com/sunny/demo/bean/Customer$CustomerType.class
+rhdm-demo/target/classes/excel/Discount.xls
+rhdm-demo/target/classes/META-INF/kmodule.xml
+rhdm-demo/target/maven-archiver/pom.properties
+rhdm-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+rhdm-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+rhdm-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+rhdm-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+rhdm-demo/target/surefire-reports/com.sunny.demo.AppTest.txt
+rhdm-demo/target/surefire-reports/TEST-com.sunny.demo.AppTest.xml
+rhdm-demo/target/test-classes/com/sunny/demo/AppTest.class
