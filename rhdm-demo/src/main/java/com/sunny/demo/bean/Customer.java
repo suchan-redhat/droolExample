@@ -1,15 +1,17 @@
 package com.sunny.demo.bean;
 
 public class Customer {
-    private CustomerType type;
+    private int type;
 
     private int years;
 
-    public CustomerType getType() {
+    private int discount;
+
+    public int getType() {
         return this.type;
     }
 
-    public void setType(CustomerType type) {
+    public void setType(int type) {
         this.type = type;
     }
 
@@ -28,13 +30,5 @@ public class Customer {
     public void setDiscount(int discount) {
         this.discount = discount;
     }
-
-    private int discount;
-
-    // Standard getters and setters
-
-    public enum CustomerType {
-        INDIVIDUAL,
-        BUSINESS;
-    }        
+       
 }
