@@ -1,6 +1,6 @@
 package com.sunny.demo.bean;
 
-public class Customer {
+public class Customer implements java.io.Serializable {
     private int type;
 
     private int years;
