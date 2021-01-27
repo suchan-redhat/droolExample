@@ -40,7 +40,7 @@
            </setHeader>   
             
             <log message=">>> ${body}"/>
-               <to uri="http4://insecure-myapp-kieserver-kieserver-testing.apps.ocp468.sandbox348.opentlc.com/services/rest/server/instances/containerId?authMethod=Basic&authUsername=admin&authPassword=password"/>
+               <to uri="http4://insecure-myapp-kieserver-kieserver-testing.apps.ocp468.sandbox348.opentlc.com/services/rest/server/instances/containerId"/>
                <log message=">>>!!!! ${body}"/>
                <log message="Headers>>>!!!! ${headers}"/>
         </route>
