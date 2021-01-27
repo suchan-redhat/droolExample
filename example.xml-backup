@@ -1,0 +1,11 @@
+<batch-execution lookup="default-stateless-ksession">
+<insert out-identifier="customer" return-object="true">
+<com.sunny.demo.bean.Customer>
+  <years>3</years>
+  <type>0</type>
+  <discount>0</discount>
+</com.sunny.demo.bean.Customer>
+</insert>
+<fire-all-rules/>
+<get-objects out-identifier="objects"/>
+</batch-execution>
