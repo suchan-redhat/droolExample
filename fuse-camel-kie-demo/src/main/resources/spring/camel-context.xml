@@ -31,15 +31,23 @@
             <setHeader headerName="CamelKieParameterName">
                 <constant>CamelKieParameterName</constant>
             </setHeader>
+               
+            <setHeader headerName="Content-Type">
+                <constant>application/json</constant>
+            </setHeader>
+            <setHeader headerName="CamelHttpMethod">
+                <constant>POST</constant>
+           </setHeader>   
             
             <log message=">>> ${body}"/>
-            <policy ref="kiePolicy">
-                <unmarshal ref="xstream" />
+               <!-- 
                 <to uri="kie:http://admin:password@insecure-myapp-kieserver-kieserver-testing.apps.ocp468.sandbox348.opentlc.com/services/rest/server"/>
                 <log message=">>>!!!! ${body}"/>
                 <log message="Headers>>>!!!! ${headers}"/>
-                <marshal ref="xstream" />
-            </policy>
+               -->
+               <to uri="http4://insecure-myapp-kieserver-kieserver-testing.apps.ocp468.sandbox348.opentlc.com/services/rest/server/instances/containerId?authUsername=admin&authPassword=password"/>
+               <log message=">>>!!!! ${body}"/>
+               <log message="Headers>>>!!!! ${headers}"/>
         </route>
     </camelContext>
     
