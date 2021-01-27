@@ -77,8 +77,9 @@
       <version>7.44.0.Final-redhat-00006</version>
     </dependency>
     
-
-    <!-- testing -->
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-http4</artifactId>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
