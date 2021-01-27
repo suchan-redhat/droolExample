@@ -99,7 +99,7 @@
     <dependency>
       <groupId>org.kie</groupId>
       <artifactId>kie-camel</artifactId>
-      <version>7.48.0.Fina</version>
+      <version>7.48.0.Final</version>
     </dependency>
     
     <dependency>
